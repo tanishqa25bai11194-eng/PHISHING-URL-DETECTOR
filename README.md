@@ -129,6 +129,13 @@ https://github.com
 - Deploy online
 
 ---
+## Output Screenshot
+
+### Phishing Detection
+![Output](output.png)
+
+### Safe Website Detection
+![Output](safe_output.png)
 
 ## Author : Tanishqa Dange
 
