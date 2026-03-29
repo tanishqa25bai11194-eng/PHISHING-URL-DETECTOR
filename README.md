@@ -131,5 +131,5 @@ https://github.com
 ---
 
 ## Author
-
-Student Project – Phishing URL Detection System
+TANISHQA DANGE
+Project – Phishing URL Detection System
