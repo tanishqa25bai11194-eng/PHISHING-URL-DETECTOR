@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AI Phishing Detector</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>AI Phishing URL Detector</h1>
+
+<form action="/predict" method="post">
+
+<input type="text" name="url" placeholder="Enter suspicious URL..." required>
+
+<button type="submit">Check URL</button>
+
+</form>
+
+{% if prediction %}
+
+<h2 style="color:{{color}}">
+{{prediction}}
+</h2>
+
+<p>Confidence: {{confidence}}%</p>
+
+{% endif %}
+
+</div>
+
+</body>
+</html>
