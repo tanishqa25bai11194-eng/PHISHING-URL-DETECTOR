@@ -36,23 +36,20 @@ The system extracts these features and feeds them into a trained ML model that p
 
 ---
 
-## Project Structure
-
-```
-phishing-detector
+AI-Phishing-URL-Detector
 │
 ├── app.py
 ├── train_model.py
 ├── feature_extractor.py
 ├── phishing_model.pkl
 │
-├── templates
-│   └── index.html
+├── templates/
+├── static/
 │
-└── static
-    └── style.css
-```
-
+├── output.png
+├── safe_output.png
+│
+└── README.md
 ---
 
 ## How to Run the Project
@@ -132,7 +129,7 @@ https://github.com
 ## Output Screenshot
 
 ### Phishing Detection
-![Output](output.png)
+![Output](phishing_output.png)
 
 ### Safe Website Detection
 ![Output](safe_output.png)
