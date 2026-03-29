@@ -130,6 +130,6 @@ https://github.com
 
 ---
 
-## Author
-TANISHQA DANGE
+## Author : Tanishqa Dange
+
 Project – Phishing URL Detection System
